@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ngapp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shaping with Angular</title>
+	<link media="all" rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div ui-view class="container">
+	  <div class="col-xs-2">
+	    <h2>Деньги</h2>
+	    <h3 class="money-ok">
+	      500.0
+	    </h3>
+	    <ul class="nav nav-pills nav-stacked">
+	      <li>
+	        <a href="#"><i class="glyphicon glyphicon-th-list"></i> Транзакции</a>
+	      </li>
+	      <li>
+	        <a href="#"><i class="glyphicon glyphicon-tasks"></i> Настройки</a>
+	      </li>
+	    </ul>
+	  </div>
+		<div class="col-xs-6" ng-controller="TransactionsCtrl as transactions_ctrl">
+		   <h2>Транзакции</h2>
+		   <br>
+		</div>
+	</div>
+
+	<script src="js/angular.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/products.js"></script>
+</body>
+</html>
