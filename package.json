@@ -1,0 +1,24 @@
+{
+  "name": "angularapp",
+  "version": "1.0.0",
+  "description": "Angular and Gulp test task",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bearkid8/angularapp.git"
+  },
+  "author": "Mike K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bearkid8/angularapp/issues"
+  },
+  "homepage": "https://github.com/bearkid8/angularapp#readme"
+}
